@@ -1,0 +1,307 @@
+
+h1{
+    font-size:75px;
+    letter-spacing: 1.92px;
+    font-family: 'Lobster', cursive;
+    left:60%
+   
+    
+}
+/*....................................Navbar...........................................*/
+.Navbar-Section{
+    width: 100%;
+    height: 15vh;
+    background-color:#9eded2 ;
+    display: flex;
+    flex-direction: column;
+}
+/*....................................Header...........................................*/
+
+header{
+    color:white;
+    background-image: url("Assest/Pic/blo.png");
+    background-color: #9eded2;
+     width: 100%;
+     height: 50vh;
+     display: flex;
+     align-items: center;
+    justify-content: center;
+
+}
+.imgg1{
+    width: 100%;
+    height: 50vh;  
+}
+/*....................................Author Info...........................................*/
+.Author{
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex-grow: 1;
+    padding: 0 var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.container-texts{
+    position: relative;
+    bottom: 70px;
+    
+    
+}
+
+
+.social{
+    margin-top: 3.5rem;
+}
+
+.social img{
+    margin-right: 2rem;
+    width: 2.5rem;
+    transition: 0.4s;
+}
+
+.social img:hover{
+    transform: scale(1.2);
+}
+
+.container-images{
+    width: 45%;
+    height: 100%;
+    position: relative; 
+     align-self: flex-end;
+     bottom: 70px;
+}
+.container-images img{
+position: absolute;
+bottom: 0;
+height: 100%;
+
+
+}
+
+/*....................................Bio...........................................*/
+.bio{
+    background-color:#9DDFD3;
+    padding:2rem var(--padding);
+    display:flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+
+.bio .imagesBio{
+    width:35%;
+}
+.bio .imagesBio img{
+    width:90%;
+}
+.bio .textBio{
+    width:35%;
+}
+
+/*....................................Education...........................................*/
+
+.edu{
+    background-color:#fce4c9;
+    padding:2rem var(--padding);
+    display:flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+
+.edu .imagesEdu{
+    width:35%;
+}
+.edu .imagesEdu img{
+    width:90%;
+}
+.edu .textEdu{
+    width:35%;
+}
+
+.edu .textEdu ul li{
+
+    font-weight: 600;
+}
+/*....................................Skills...........................................*/
+
+.skills{
+    background-color:#5d6160;
+    padding:2rem var(--padding);
+    display:flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+
+.skills .imagesSki{
+    width:35%;
+}
+.skills .imagesSki img{
+    width:90%;
+}
+.skills .Ski{
+    width: 45%;
+}
+
+.Skill-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width:600px;
+    gap: 33px;;
+  }
+  
+  .language {
+    background-color: rgba(191, 252, 242, 0.8);
+    border: 2px solid #fcffff;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+#textS{
+    color: antiquewhite;
+    text-align: center;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+     /*Navbar*/
+    nav{
+        padding-top: 15px;
+        padding-right:0;
+        
+    }
+    
+    nav ul li{
+      
+        margin: 5.8px 20px;
+        font-size: 15px;
+
+    }
+    #butt2{
+        display: none;
+    }
+
+     /*Header*/
+    header{
+        width: 100%;
+        height: 30vh;
+    }
+    header h1{
+        font-size: 40px;
+    }
+
+  
+    /*Author Info*/
+    .Author{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        padding-top: 70px;
+    
+    }
+    
+    .content{
+      
+        padding: 0 var(--padding);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .container-texts h1{
+    font-size: 40px;
+    }
+    .container-texts h3{
+        font-size: 20px;
+        }
+    .container-texts h4{
+            font-size: 20px;
+            color: #5ac9c9;
+      }
+             
+    
+    .social{
+        margin-top: 2.5rem;
+    }
+    
+    .social img{
+        margin-right: 1rem;
+        width: 1.5rem;
+      
+    }
+    
+    .container-images{
+        display: none;
+    }
+
+
+
+
+    /*Bio*/
+    .imagesBio {
+        display: none;  
+    
+      }
+    
+    .bio .textBio {
+        width:80%;
+    }
+    .bio .textBio h1 {
+    text-align: center;
+    font-size: 40px;
+    }
+
+    /*Education*/
+
+    .imagesEdu{
+        display: none; }
+       
+       
+       .edu .textEdu{
+            width:80%;
+       }
+       
+       .edu .textEdu h1{
+       text-align: center;
+       font-size: 40px;
+    }
+       
+       /*Skill*/
+.imagesSki{
+    display: none;  
+}
+.skills {
+padding:2rem var(--padding);
+
+}
+
+
+.Skill-container {
+grid-template-columns: repeat(2, 1fr);
+width:40px;
+gap: 10px;;
+}
+
+.language {
+padding: 20px;
+font-size: 15px;
+
+}
+
+#textS{
+color: antiquewhite;
+text-align: center;
+font-size: 40px;
+}
+
+} 

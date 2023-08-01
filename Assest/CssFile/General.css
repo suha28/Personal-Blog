@@ -1,0 +1,92 @@
+
+:root{
+    --padding:8%;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+   
+   font-family: 'Acme', sans-serif;
+    font-size: 18px;
+    color: #8d512e;
+}
+
+nav{
+    padding-top: 35.2px;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 12.8px 24px;
+}
+
+nav ul li a{
+    color:#8d512e;
+    text-decoration: none;
+    transition: 0.4s;
+    
+}
+
+nav ul li a:hover{
+    color: #454747;
+}
+
+
+
+h2{
+    font-size:36.2px;
+    letter-spacing: 1.92px;
+    font-family: 'Lobster', cursive;
+    
+}
+
+h3{
+    font-size:34.2px;
+    letter-spacing: 1.92px;
+    cursor: pointer;
+}
+ 
+h4{
+    font-size: 1.25rem;
+    letter-spacing: 0.12rem;
+    color: #ffffff;
+}
+h5{
+ font-size: 1rem;   
+ margin-bottom: 1.5rem;
+ letter-spacing: 2px;
+ color:#5d6160;
+}
+
+p{
+ color:#5d6160;
+ letter-spacing: 1px;   
+ line-height: 1.8rem;
+ font-size: 1rem ;
+ text-decoration: underline;
+ font-weight: 300;
+ font-style: italic;
+}
+
+span{
+    color:#5d6160;
+}
+
+blockquote{
+    color: #ffffff;
+}
+figcaption blockquote{
+    color:#8d512e;
+}
